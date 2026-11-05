@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+results/
+*.mat
+*.npy
+*.npz
+!data/cifar19.mat
+!data/flower17.mat
+.DS_Store

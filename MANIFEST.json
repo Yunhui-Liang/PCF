@@ -1,0 +1,149 @@
+{
+  "release_date": "2026-11-05",
+  "contains_processed_benchmark_arrays": true,
+  "included_datasets": [
+    "CIFAR-19",
+    "Flower-15"
+  ],
+  "protocols": [
+    "inductive",
+    "transductive"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 149,
+      "sha256": "23cdc2ed027b0a7cbbe27462a3bca9d9a844a7e7c7cae1af2296d963693df6c9"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 671,
+      "sha256": "597e16e4dd19c6fcca09bd308e5cd27dc7e6e7c30a4651a2818f4390257fa9c1"
+    },
+    {
+      "path": "data/cifar19.mat",
+      "bytes": 7682432,
+      "sha256": "e26a094af74087ab376d2b770fb855c8637dbf4ebad450290691d3ef4d098c2a"
+    },
+    {
+      "path": "data/flower17.mat",
+      "bytes": 828920,
+      "sha256": "f9aed6f789ff704f0fa1c2ef6e6504720624054e34b9e0442dd2ca50e651f6c5"
+    },
+    {
+      "path": "data/README.md",
+      "bytes": 1371,
+      "sha256": "2c83d667e504ba4e4a370ccf7311f646193c261cbe91dd3affda166edc019525"
+    },
+    {
+      "path": "pcf/__init__.py",
+      "bytes": 68,
+      "sha256": "15b7cdb0bc428961355965fab2aa0eb00b4199c5d004f9cdc7e4477e1672846b"
+    },
+    {
+      "path": "pcf/_core/__init__.py",
+      "bytes": 44,
+      "sha256": "ce3dc668b775018745c9dfef3887eb3a141c73ec2f3b405dbf5e4795bc3431a8"
+    },
+    {
+      "path": "pcf/_core/calibration.py",
+      "bytes": 3120,
+      "sha256": "4a807c85d6abbf877a195350617fad9eb27c0a3e038362268e131fae974ff9a7"
+    },
+    {
+      "path": "pcf/_core/decision.py",
+      "bytes": 1835,
+      "sha256": "8d4b1c6abdcf31e03a702ce4b4bd73dbc7d8171470dd580ffbd8a666ec16be2c"
+    },
+    {
+      "path": "pcf/_core/dirichlet.py",
+      "bytes": 3595,
+      "sha256": "b28851702de157c323bd8b0601cd587e6da0a3cf2ce02b8e250968ba94f9610a"
+    },
+    {
+      "path": "pcf/_core/evidence.py",
+      "bytes": 7880,
+      "sha256": "d571c1260e66e01a5c389a0d8286c51af27aaca4fe6fd6b9cd3742e9f89e42b6"
+    },
+    {
+      "path": "pcf/_core/interfaces.py",
+      "bytes": 944,
+      "sha256": "59f752f603aaa6ffd4e8f3a8c28cc87cec84b0732f5c01ebcd8e82e7970464a9"
+    },
+    {
+      "path": "pcf/_core/teacher.py",
+      "bytes": 2371,
+      "sha256": "db218707fdaaf3aaecaf07cf781bc5e21d13b6e5fe13df49c11d5cb50851f5bf"
+    },
+    {
+      "path": "pcf/_core/translation.py",
+      "bytes": 4008,
+      "sha256": "b4ae825dca2ebf012e070a7627191774d671ff31bbb86eae510092d4feb4898d"
+    },
+    {
+      "path": "pcf/io.py",
+      "bytes": 2583,
+      "sha256": "2203d080edb113684f80c0a7a7c00f6d19460bda7d72a8d9fd10a9d0cf9734c7"
+    },
+    {
+      "path": "pcf/model.py",
+      "bytes": 2048,
+      "sha256": "34668ae1c43e84870c0a178d3ec71b90374c745411c334e450304f9c4f7d784f"
+    },
+    {
+      "path": "provenance/core_manifest.json",
+      "bytes": 6313,
+      "sha256": "fd3cd79fb4563ac072f1917e595dd6d85392e713568430c075b26179410a12c8"
+    },
+    {
+      "path": "provenance/data_manifest.json",
+      "bytes": 2142,
+      "sha256": "7dc3461b533dfcb307b484150bd3bb8082141b615e2ab6e16f55de0ac308f485"
+    },
+    {
+      "path": "provenance/numerical_verification.json",
+      "bytes": 15152,
+      "sha256": "2bc768ca1d71f1111dfe95a309d71b06694cc149d7ed35be9ab6b7b590dba623"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 432,
+      "sha256": "7d6d0b235e8689d430b68b432ea30e52293895514150da05a0979a8c739962cf"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4681,
+      "sha256": "8c72cb9199957e2286342902df5fd8e8e9b856a81d266c86c5e645baa781ffff"
+    },
+    {
+      "path": "README_zh.md",
+      "bytes": 2220,
+      "sha256": "38ae067cf789e6635420ed2f76dc4fb05b3f369a9b7d151addc45cd93c64437c"
+    },
+    {
+      "path": "reproduce.py",
+      "bytes": 2571,
+      "sha256": "ae5a3d06121541d31ea65805e30159b610304821f63b2bdeb1d98509f096874d"
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "bytes": 4148,
+      "sha256": "2cb193b7e54a17c4f9790d8077fb55fb735b54bde098e9e2c0e5ddd4fc4a29d2"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 81,
+      "sha256": "2b937d3d88559ccf17984d461205e9d67c70497074f51f740db64e7005b3089a"
+    },
+    {
+      "path": "run.py",
+      "bytes": 2577,
+      "sha256": "c2649af97f1e647fc2e3447f18a429686f18d36ffcba348a378575d86afd25f1"
+    },
+    {
+      "path": "tests/test_pcf.py",
+      "bytes": 1554,
+      "sha256": "9b723ef16b22f098ea050ab21b3c79b3958955ebe68afabb5ca01ed5829b5a61"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "datasets": [
+    {
+      "task": "CIFAR-19",
+      "file": "data/cifar19.mat",
+      "bytes": 7682432,
+      "sha256": "e26a094af74087ab376d2b770fb855c8637dbf4ebad450290691d3ef4d098c2a",
+      "n_samples": 10000,
+      "n_sources": 5,
+      "n_classes": 19,
+      "label_base": 0,
+      "variables": [
+        "P_cell",
+        "model_names",
+        "class_names",
+        "gt"
+      ],
+      "model_names": [
+        "MiniCPM-V-4_5",
+        "Phi-3.5-vision-instruct",
+        "Qwen2.5-VL-7B-Instruct",
+        "SmolVLM2-2.2B-Instruct",
+        "llava-v1.6-mistral-7b-hf"
+      ],
+      "class_names": [
+        "aquatic mammals",
+        "fish",
+        "flowers",
+        "food containers",
+        "fruit and vegetables",
+        "household electrical devices",
+        "household furniture",
+        "insects",
+        "large carnivores",
+        "large man-made outdoor things",
+        "large natural outdoor scenes",
+        "large omnivores and herbivores",
+        "medium mammals",
+        "non-insect invertebrates",
+        "people",
+        "reptiles",
+        "small mammals",
+        "trees",
+        "vehicles"
+      ]
+    },
+    {
+      "task": "Flower-15",
+      "file": "data/flower17.mat",
+      "bytes": 828920,
+      "sha256": "f9aed6f789ff704f0fa1c2ef6e6504720624054e34b9e0442dd2ca50e651f6c5",
+      "n_samples": 1360,
+      "n_sources": 5,
+      "n_classes": 15,
+      "label_base": 0,
+      "variables": [
+        "P_cell",
+        "model_names",
+        "class_names",
+        "gt"
+      ],
+      "model_names": [
+        "MiniCPM-V-4_5",
+        "Phi-3.5-vision-instruct",
+        "Qwen2.5-VL-7B-Instruct",
+        "SmolVLM2-2.2B-Instruct",
+        "llava-v1.6-mistral-7b-hf"
+      ],
+      "class_names": [
+        "bluebell",
+        "buttercup",
+        "cowslip",
+        "crocus",
+        "daffodil",
+        "daisy",
+        "dandelion",
+        "fritillary",
+        "iris",
+        "pansy",
+        "snowdrop",
+        "sunflower",
+        "tiger lily",
+        "tulip",
+        "windflower"
+      ]
+    }
+  ]
+}

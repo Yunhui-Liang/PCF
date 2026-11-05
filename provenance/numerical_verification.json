@@ -1,0 +1,445 @@
+{
+  "checked_runs": 20,
+  "datasets": [
+    "cifar19",
+    "flower17"
+  ],
+  "protocols": [
+    "inductive",
+    "transductive"
+  ],
+  "seeds": [
+    2026,
+    2027,
+    2028,
+    2029,
+    2030
+  ],
+  "integration_tests_passed": 3,
+  "probability_tolerance": 1e-06,
+  "max_observed_probability_difference": 1.1920928955078125e-07,
+  "predicted_class_mismatches": 0,
+  "execution": "Extracted archive, editable package installation, PYTHONPATH removed and user site disabled",
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.7.2",
+    "lightgbm": "4.6.0",
+    "torch": "2.7.1"
+  },
+  "summary": {
+    "inductive": {
+      "ACC": {
+        "mean": 74.75617647058824,
+        "sample_sd": 0.5322091128423004
+      },
+      "MacroF1": {
+        "mean": 72.12733400570224,
+        "sample_sd": 0.4539181719917186
+      },
+      "Brier": {
+        "mean": 0.4064320293193008,
+        "sample_sd": 0.010554221131682893
+      },
+      "datasets": [
+        "cifar19",
+        "flower17"
+      ],
+      "per_seed_task_means": {
+        "2026": {
+          "ACC": 74.04705882352941,
+          "MacroF1": 71.62963525782764,
+          "Brier": 0.41880576569303646
+        },
+        "2027": {
+          "ACC": 74.42352941176472,
+          "MacroF1": 71.86539483709004,
+          "Brier": 0.41118228349097413
+        },
+        "2028": {
+          "ACC": 74.79117647058824,
+          "MacroF1": 71.96117196242301,
+          "Brier": 0.4053687872752198
+        },
+        "2029": {
+          "ACC": 75.33529411764707,
+          "MacroF1": 72.42947321862077,
+          "Brier": 0.3900413989903853
+        },
+        "2030": {
+          "ACC": 75.18382352941177,
+          "MacroF1": 72.75099475254964,
+          "Brier": 0.40676191114688814
+        }
+      }
+    },
+    "transductive": {
+      "ACC": {
+        "mean": 74.28735294117647,
+        "sample_sd": 0.0
+      },
+      "MacroF1": {
+        "mean": 71.87326999119561,
+        "sample_sd": 0.0
+      },
+      "Brier": {
+        "mean": 0.4082529866224799,
+        "sample_sd": 6.206335383118183e-17
+      },
+      "datasets": [
+        "cifar19",
+        "flower17"
+      ],
+      "per_seed_task_means": {
+        "2026": {
+          "ACC": 74.28735294117647,
+          "MacroF1": 71.87326999119561,
+          "Brier": 0.40825298662247983
+        },
+        "2027": {
+          "ACC": 74.28735294117647,
+          "MacroF1": 71.87326999119561,
+          "Brier": 0.40825298662247983
+        },
+        "2028": {
+          "ACC": 74.28735294117647,
+          "MacroF1": 71.87326999119561,
+          "Brier": 0.40825298662247983
+        },
+        "2029": {
+          "ACC": 74.28735294117647,
+          "MacroF1": 71.87326999119561,
+          "Brier": 0.40825298662247983
+        },
+        "2030": {
+          "ACC": 74.28735294117647,
+          "MacroF1": 71.87326999119561,
+          "Brier": 0.40825298662247983
+        }
+      }
+    }
+  },
+  "cases": [
+    {
+      "protocol": "inductive",
+      "dataset": "cifar19",
+      "seed": 2026,
+      "n_fit": 8000,
+      "n_predict": 2000,
+      "ACC": 56.55,
+      "MacroF1": 49.504054851102495,
+      "Brier": 0.6522335293647656,
+      "max_abs_probability_difference": 0.0,
+      "prediction_label_mismatches": 0,
+      "sample_indices_match": true,
+      "fit_indices_match": true,
+      "input_sha256": "e26a094af74087ab376d2b770fb855c8637dbf4ebad450290691d3ef4d098c2a",
+      "reference_sha256": "751decc116de46acf6be12f4f05172412c67085a1b78dc3e570919b290d59ff6"
+    },
+    {
+      "protocol": "inductive",
+      "dataset": "cifar19",
+      "seed": 2027,
+      "n_fit": 8000,
+      "n_predict": 2000,
+      "ACC": 56.2,
+      "MacroF1": 48.616402559792945,
+      "Brier": 0.652390496441565,
+      "max_abs_probability_difference": 0.0,
+      "prediction_label_mismatches": 0,
+      "sample_indices_match": true,
+      "fit_indices_match": true,
+      "input_sha256": "e26a094af74087ab376d2b770fb855c8637dbf4ebad450290691d3ef4d098c2a",
+      "reference_sha256": "23966a3d8758b9282527befed20f801a998e31689147532ea51715d9764d5485"
+    },
+    {
+      "protocol": "inductive",
+      "dataset": "cifar19",
+      "seed": 2028,
+      "n_fit": 8000,
+      "n_predict": 2000,
+      "ACC": 56.2,
+      "MacroF1": 49.570492072994185,
+      "Brier": 0.651906899502846,
+      "max_abs_probability_difference": 0.0,
+      "prediction_label_mismatches": 0,
+      "sample_indices_match": true,
+      "fit_indices_match": true,
+      "input_sha256": "e26a094af74087ab376d2b770fb855c8637dbf4ebad450290691d3ef4d098c2a",
+      "reference_sha256": "0b19ac7795cecf26a05fa54705a53a6ce20b45d7f9d201d2fcd7efb33c257d8b"
+    },
+    {
+      "protocol": "inductive",
+      "dataset": "cifar19",
+      "seed": 2029,
+      "n_fit": 8000,
+      "n_predict": 2000,
+      "ACC": 55.45,
+      "MacroF1": 48.67528111222416,
+      "Brier": 0.6638219432571517,
+      "max_abs_probability_difference": 0.0,
+      "prediction_label_mismatches": 0,
+      "sample_indices_match": true,
+      "fit_indices_match": true,
+      "input_sha256": "e26a094af74087ab376d2b770fb855c8637dbf4ebad450290691d3ef4d098c2a",
+      "reference_sha256": "e7c418c0a429a924d87e2e198e5996cece7853ccda38d0c41720661309bf81cc"
+    },
+    {
+      "protocol": "inductive",
+      "dataset": "cifar19",
+      "seed": 2030,
+      "n_fit": 8000,
+      "n_predict": 2000,
+      "ACC": 56.25,
+      "MacroF1": 49.87033684403487,
+      "Brier": 0.6633969823553589,
+      "max_abs_probability_difference": 0.0,
+      "prediction_label_mismatches": 0,
+      "sample_indices_match": true,
+      "fit_indices_match": true,
+      "input_sha256": "e26a094af74087ab376d2b770fb855c8637dbf4ebad450290691d3ef4d098c2a",
+      "reference_sha256": "3b41f50319157d8dfd9cf9e28997f25cc2f5ec52e2d327344662b2610e4d3fe3"
+    },
+    {
+      "protocol": "inductive",
+      "dataset": "flower17",
+      "seed": 2026,
+      "n_fit": 1088,
+      "n_predict": 272,
+      "ACC": 91.54411764705883,
+      "MacroF1": 93.7552156645528,
+      "Brier": 0.18537800202130725,
+      "max_abs_probability_difference": 0.0,
+      "prediction_label_mismatches": 0,
+      "sample_indices_match": true,
+      "fit_indices_match": true,
+      "input_sha256": "f9aed6f789ff704f0fa1c2ef6e6504720624054e34b9e0442dd2ca50e651f6c5",
+      "reference_sha256": "b070adf06e2236133f12c3a02245572757358a8a0aa7f1f9ee958cad27da7b26"
+    },
+    {
+      "protocol": "inductive",
+      "dataset": "flower17",
+      "seed": 2027,
+      "n_fit": 1088,
+      "n_predict": 272,
+      "ACC": 92.64705882352942,
+      "MacroF1": 95.11438711438713,
+      "Brier": 0.16997407054038324,
+      "max_abs_probability_difference": 0.0,
+      "prediction_label_mismatches": 0,
+      "sample_indices_match": true,
+      "fit_indices_match": true,
+      "input_sha256": "f9aed6f789ff704f0fa1c2ef6e6504720624054e34b9e0442dd2ca50e651f6c5",
+      "reference_sha256": "2716a0f074b0a2c41a31a9cc81c23db95e8964bf32fc516b4c18e760cd125727"
+    },
+    {
+      "protocol": "inductive",
+      "dataset": "flower17",
+      "seed": 2028,
+      "n_fit": 1088,
+      "n_predict": 272,
+      "ACC": 93.38235294117648,
+      "MacroF1": 94.35185185185185,
+      "Brier": 0.15883067504759363,
+      "max_abs_probability_difference": 0.0,
+      "prediction_label_mismatches": 0,
+      "sample_indices_match": true,
+      "fit_indices_match": true,
+      "input_sha256": "f9aed6f789ff704f0fa1c2ef6e6504720624054e34b9e0442dd2ca50e651f6c5",
+      "reference_sha256": "cefb06094ed011ffb8fc61968e0cafd1b41f73f8ef7877b1748627c02a300ad6"
+    },
+    {
+      "protocol": "inductive",
+      "dataset": "flower17",
+      "seed": 2029,
+      "n_fit": 1088,
+      "n_predict": 272,
+      "ACC": 95.22058823529412,
+      "MacroF1": 96.18366532501739,
+      "Brier": 0.11626085472361888,
+      "max_abs_probability_difference": 0.0,
+      "prediction_label_mismatches": 0,
+      "sample_indices_match": true,
+      "fit_indices_match": true,
+      "input_sha256": "f9aed6f789ff704f0fa1c2ef6e6504720624054e34b9e0442dd2ca50e651f6c5",
+      "reference_sha256": "24de917769883f35f856bd0d7bd1c81e059cbac6c97a21c2270173c2c0edc048"
+    },
+    {
+      "protocol": "inductive",
+      "dataset": "flower17",
+      "seed": 2030,
+      "n_fit": 1088,
+      "n_predict": 272,
+      "ACC": 94.11764705882352,
+      "MacroF1": 95.63165266106444,
+      "Brier": 0.15012683993841736,
+      "max_abs_probability_difference": 0.0,
+      "prediction_label_mismatches": 0,
+      "sample_indices_match": true,
+      "fit_indices_match": true,
+      "input_sha256": "f9aed6f789ff704f0fa1c2ef6e6504720624054e34b9e0442dd2ca50e651f6c5",
+      "reference_sha256": "536ae233d422b6dd6ae7b986720998f329991e478fbc38dc0750fc51f3e9f513"
+    },
+    {
+      "protocol": "transductive",
+      "dataset": "cifar19",
+      "seed": 2026,
+      "n_fit": 10000,
+      "n_predict": 10000,
+      "ACC": 55.559999999999995,
+      "MacroF1": 49.25868725853027,
+      "Brier": 0.6635032118153608,
+      "max_abs_probability_difference": 1.1920928955078125e-07,
+      "prediction_label_mismatches": 0,
+      "sample_indices_match": true,
+      "fit_indices_match": true,
+      "input_sha256": "e26a094af74087ab376d2b770fb855c8637dbf4ebad450290691d3ef4d098c2a",
+      "reference_sha256": "16d84b9d50047cb899f8f0d8cbc2356b5ebb71b83f0f7e32b9146308daf1e836"
+    },
+    {
+      "protocol": "transductive",
+      "dataset": "cifar19",
+      "seed": 2027,
+      "n_fit": 10000,
+      "n_predict": 10000,
+      "ACC": 55.559999999999995,
+      "MacroF1": 49.25868725853027,
+      "Brier": 0.6635032118153608,
+      "max_abs_probability_difference": 1.1920928955078125e-07,
+      "prediction_label_mismatches": 0,
+      "sample_indices_match": true,
+      "fit_indices_match": true,
+      "input_sha256": "e26a094af74087ab376d2b770fb855c8637dbf4ebad450290691d3ef4d098c2a",
+      "reference_sha256": "16d84b9d50047cb899f8f0d8cbc2356b5ebb71b83f0f7e32b9146308daf1e836"
+    },
+    {
+      "protocol": "transductive",
+      "dataset": "cifar19",
+      "seed": 2028,
+      "n_fit": 10000,
+      "n_predict": 10000,
+      "ACC": 55.559999999999995,
+      "MacroF1": 49.25868725853027,
+      "Brier": 0.6635032118153608,
+      "max_abs_probability_difference": 1.1920928955078125e-07,
+      "prediction_label_mismatches": 0,
+      "sample_indices_match": true,
+      "fit_indices_match": true,
+      "input_sha256": "e26a094af74087ab376d2b770fb855c8637dbf4ebad450290691d3ef4d098c2a",
+      "reference_sha256": "16d84b9d50047cb899f8f0d8cbc2356b5ebb71b83f0f7e32b9146308daf1e836"
+    },
+    {
+      "protocol": "transductive",
+      "dataset": "cifar19",
+      "seed": 2029,
+      "n_fit": 10000,
+      "n_predict": 10000,
+      "ACC": 55.559999999999995,
+      "MacroF1": 49.25868725853027,
+      "Brier": 0.6635032118153608,
+      "max_abs_probability_difference": 1.1920928955078125e-07,
+      "prediction_label_mismatches": 0,
+      "sample_indices_match": true,
+      "fit_indices_match": true,
+      "input_sha256": "e26a094af74087ab376d2b770fb855c8637dbf4ebad450290691d3ef4d098c2a",
+      "reference_sha256": "16d84b9d50047cb899f8f0d8cbc2356b5ebb71b83f0f7e32b9146308daf1e836"
+    },
+    {
+      "protocol": "transductive",
+      "dataset": "cifar19",
+      "seed": 2030,
+      "n_fit": 10000,
+      "n_predict": 10000,
+      "ACC": 55.559999999999995,
+      "MacroF1": 49.25868725853027,
+      "Brier": 0.6635032118153608,
+      "max_abs_probability_difference": 1.1920928955078125e-07,
+      "prediction_label_mismatches": 0,
+      "sample_indices_match": true,
+      "fit_indices_match": true,
+      "input_sha256": "e26a094af74087ab376d2b770fb855c8637dbf4ebad450290691d3ef4d098c2a",
+      "reference_sha256": "16d84b9d50047cb899f8f0d8cbc2356b5ebb71b83f0f7e32b9146308daf1e836"
+    },
+    {
+      "protocol": "transductive",
+      "dataset": "flower17",
+      "seed": 2026,
+      "n_fit": 1360,
+      "n_predict": 1360,
+      "ACC": 93.01470588235294,
+      "MacroF1": 94.48785272386095,
+      "Brier": 0.15300276142959887,
+      "max_abs_probability_difference": 5.960464477539063e-08,
+      "prediction_label_mismatches": 0,
+      "sample_indices_match": true,
+      "fit_indices_match": true,
+      "input_sha256": "f9aed6f789ff704f0fa1c2ef6e6504720624054e34b9e0442dd2ca50e651f6c5",
+      "reference_sha256": "ae7ba3fe9098dd293e8190e6e6ae7be1f6c0064c1627bfef17374cf428635c07"
+    },
+    {
+      "protocol": "transductive",
+      "dataset": "flower17",
+      "seed": 2027,
+      "n_fit": 1360,
+      "n_predict": 1360,
+      "ACC": 93.01470588235294,
+      "MacroF1": 94.48785272386095,
+      "Brier": 0.15300276142959887,
+      "max_abs_probability_difference": 5.960464477539063e-08,
+      "prediction_label_mismatches": 0,
+      "sample_indices_match": true,
+      "fit_indices_match": true,
+      "input_sha256": "f9aed6f789ff704f0fa1c2ef6e6504720624054e34b9e0442dd2ca50e651f6c5",
+      "reference_sha256": "ae7ba3fe9098dd293e8190e6e6ae7be1f6c0064c1627bfef17374cf428635c07"
+    },
+    {
+      "protocol": "transductive",
+      "dataset": "flower17",
+      "seed": 2028,
+      "n_fit": 1360,
+      "n_predict": 1360,
+      "ACC": 93.01470588235294,
+      "MacroF1": 94.48785272386095,
+      "Brier": 0.15300276142959887,
+      "max_abs_probability_difference": 5.960464477539063e-08,
+      "prediction_label_mismatches": 0,
+      "sample_indices_match": true,
+      "fit_indices_match": true,
+      "input_sha256": "f9aed6f789ff704f0fa1c2ef6e6504720624054e34b9e0442dd2ca50e651f6c5",
+      "reference_sha256": "ae7ba3fe9098dd293e8190e6e6ae7be1f6c0064c1627bfef17374cf428635c07"
+    },
+    {
+      "protocol": "transductive",
+      "dataset": "flower17",
+      "seed": 2029,
+      "n_fit": 1360,
+      "n_predict": 1360,
+      "ACC": 93.01470588235294,
+      "MacroF1": 94.48785272386095,
+      "Brier": 0.15300276142959887,
+      "max_abs_probability_difference": 5.960464477539063e-08,
+      "prediction_label_mismatches": 0,
+      "sample_indices_match": true,
+      "fit_indices_match": true,
+      "input_sha256": "f9aed6f789ff704f0fa1c2ef6e6504720624054e34b9e0442dd2ca50e651f6c5",
+      "reference_sha256": "ae7ba3fe9098dd293e8190e6e6ae7be1f6c0064c1627bfef17374cf428635c07"
+    },
+    {
+      "protocol": "transductive",
+      "dataset": "flower17",
+      "seed": 2030,
+      "n_fit": 1360,
+      "n_predict": 1360,
+      "ACC": 93.01470588235294,
+      "MacroF1": 94.48785272386095,
+      "Brier": 0.15300276142959887,
+      "max_abs_probability_difference": 5.960464477539063e-08,
+      "prediction_label_mismatches": 0,
+      "sample_indices_match": true,
+      "fit_indices_match": true,
+      "input_sha256": "f9aed6f789ff704f0fa1c2ef6e6504720624054e34b9e0442dd2ca50e651f6c5",
+      "reference_sha256": "ae7ba3fe9098dd293e8190e6e6ae7be1f6c0064c1627bfef17374cf428635c07"
+    }
+  ]
+}

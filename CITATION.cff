@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Please cite the associated PCF paper when using this code."
+title: "Progressive Candidate Fusion (PCF)"
+type: software
+version: 1.0.1
+date-released: 2026-11-05
+authors:
+  - family-names: "Liang"
+    given-names: "Yunhui"
+  - family-names: "Chen"
+    given-names: "Yan"
+  - family-names: "Wu"
+    given-names: "Peng"
+  - family-names: "Li"
+    given-names: "Feijiang"
+  - family-names: "Liang"
+    given-names: "Xinyan"
+  - family-names: "Jiang"
+    given-names: "Bingbing"
+  - family-names: "Zhou"
+    given-names: "Peng"
+  - family-names: "Yan"
+    given-names: "Tao"
+  - family-names: "Du"
+    given-names: "Liang"

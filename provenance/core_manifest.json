@@ -1,0 +1,146 @@
+{
+  "implementation": "PCF main method",
+  "extraction_rule": "Named function/class/constant definitions only; module imports made relative; docstrings removed; executable ASTs unchanged.",
+  "files": [
+    {
+      "source": "if_followup_experiments/reference_code/benchmark_code/frozen/src/v17_evidence.py",
+      "original_sha256": "d0d7f34c0dd4c83a449f40eb10ccdd0bdf88a45a3373d6dcb880a249348b4e54",
+      "release": "pcf/_core/translation.py",
+      "symbols": [
+        {
+          "name": "source_features",
+          "executable_ast_sha256": "e6117dac43bcfb14580237379f307731eaeb9ee7c93a5f90036b041e555c79af"
+        },
+        {
+          "name": "V17Truth",
+          "executable_ast_sha256": "2089c373c57800198ef5e23c2db48ec53f8f0452e60148458000d55b31a3bd32"
+        }
+      ],
+      "changes": "Relative imports, formatting and documentation only; executable definition ASTs unchanged."
+    },
+    {
+      "source": "if_followup_experiments/reference_code/benchmark_code/frozen/src/v11/v11_unified.py",
+      "original_sha256": "370505c39422c3081c59b912f4f90a6cc23931b01e6b9f4d2233d93c6699e314",
+      "release": "pcf/_core/teacher.py",
+      "symbols": [
+        {
+          "name": "V11Truth",
+          "executable_ast_sha256": "1894268df57f81a94c866347b0d520c6ed6bb69fe1b15f97344d3aba32f41a48"
+        }
+      ],
+      "changes": "Relative imports, formatting and documentation only; executable definition ASTs unchanged."
+    },
+    {
+      "source": "if_followup_experiments/reference_code/benchmark_code/frozen/src/v11/v9_unified.py",
+      "original_sha256": "d03527a422924f83ad2e10db6d3ca6ffee7f2258269ab109d03531a1f43a27a0",
+      "release": "pcf/_core/calibration.py",
+      "symbols": [
+        {
+          "name": "EPS",
+          "executable_ast_sha256": "132d4090e3d4c721dcb993d6eda04e9d1aca6aae690450467a1aedc955cd2ed1"
+        },
+        {
+          "name": "posterior_temperature",
+          "executable_ast_sha256": "9fc354140425b02733bee299e9a1e2ae84d25d73e75bbcbbe4abe74d92905a0c"
+        },
+        {
+          "name": "source_bias",
+          "executable_ast_sha256": "a1040da8f53a1fdc553a1f037f03195fc5817229c0042da0b83643b5f0472db1"
+        },
+        {
+          "name": "rectify_source_class",
+          "executable_ast_sha256": "88cf9b96201488a2766d50a2fa6dad5eae89afe1db698820b82d13da6d60774a"
+        },
+        {
+          "name": "V9Truth",
+          "executable_ast_sha256": "ae9d6afc1f8a24230fe0a2b6a2c0435f27f0282cc3d4a3f1e4dd732e67224412"
+        }
+      ],
+      "changes": "Relative imports, formatting and documentation only; executable definition ASTs unchanged."
+    },
+    {
+      "source": "if_followup_experiments/reference_code/benchmark_code/frozen/src/v11/unified.py",
+      "original_sha256": "072d0e6b746dbb660415407f44c2b8a94156beca856403822d6556ecd2def50c",
+      "release": "pcf/_core/evidence.py",
+      "symbols": [
+        {
+          "name": "_EPS",
+          "executable_ast_sha256": "50ec70763fa0f2d8fb66870970f1f3d4c71c23fe4a1fbf18570a4cdae616747b"
+        },
+        {
+          "name": "softmax",
+          "executable_ast_sha256": "4ca9b25353ab51341d0773f9f564d0a8b50f10f7df3941888d85ce1062ca544b"
+        },
+        {
+          "name": "_clean",
+          "executable_ast_sha256": "505e471d738937da01bdd9b28abfee3bb17ef444f80db5aeaa072d599604f8e3"
+        },
+        {
+          "name": "_ranks",
+          "executable_ast_sha256": "5be77ed75050994edf643cf0fec0351c06405b958f632042693b9f68a18bfc87"
+        },
+        {
+          "name": "ds_predict",
+          "executable_ast_sha256": "93902a1781148eaedf3cbd624bb5285708fd4107cdc6189148007acc5815cf85"
+        },
+        {
+          "name": "UnifiedTruth",
+          "executable_ast_sha256": "b2b7c6d19535556d884bc25b7d26eb763d97f897a062ceceb6384fde7ea2ef3f"
+        }
+      ],
+      "changes": "Relative imports, formatting and documentation only; executable definition ASTs unchanged."
+    },
+    {
+      "source": "if_followup_experiments/reference_code/benchmark_code/frozen/src/v11/baseline.py",
+      "original_sha256": "d1f7db4e0c0cd3ed23811a9d6b2afa13b143db61c5fdff0a804688af202bf0d7",
+      "release": "pcf/_core/decision.py",
+      "symbols": [
+        {
+          "name": "vote",
+          "executable_ast_sha256": "eeaf97313312cac4473d86b0203ddf7b2d728da82b53fb976df0ec80e0db7b5e"
+        },
+        {
+          "name": "ds",
+          "executable_ast_sha256": "5e4624c128874f6c2d222217ec4036204625711858e00c236a8e2be66e9f306a"
+        }
+      ],
+      "changes": "Relative imports, formatting and documentation only; executable definition ASTs unchanged."
+    },
+    {
+      "source": "if_followup_experiments/reference_code/benchmark_code/frozen/src/v11/sds_core.py",
+      "original_sha256": "35a8c4c5c36551035c4e2e977da29dc35ac824c888d602d1caf1deac155de566",
+      "release": "pcf/_core/dirichlet.py",
+      "symbols": [
+        {
+          "name": "_softmax",
+          "executable_ast_sha256": "6619d7558b88d35555dd6ae067a270b72de3ebc913b98cef0fed29cdf3c21683"
+        },
+        {
+          "name": "dirichlet_em",
+          "executable_ast_sha256": "107d8a94f2546c06a3ea48ce97af43c50e87dd33bb9bd39bb316cdbdb71ebc3d"
+        },
+        {
+          "name": "predict_dirichlet",
+          "executable_ast_sha256": "047a87e7fab854d5f615450573786831a5a611124b04e334f78cf01cfbbb099a"
+        }
+      ],
+      "changes": "Relative imports, formatting and documentation only; executable definition ASTs unchanged."
+    },
+    {
+      "source": "if_followup_experiments/reference_code/benchmark_code/frozen/src/v11/interfaces.py",
+      "original_sha256": "083ec157144ce0a1c7d686fd363fb44e18892cdeac10a80cbb3d754535c492f1",
+      "release": "pcf/_core/interfaces.py",
+      "symbols": [
+        {
+          "name": "from_labels",
+          "executable_ast_sha256": "5020e7ca2d5d8c560d3fa92d8632b2cfa85a9578f74580a9c7ba23f61156ac7f"
+        },
+        {
+          "name": "from_rankings",
+          "executable_ast_sha256": "ba69c68d319b79aadd4579ed4d90a8f09d05fa244b65034f607ecd8e131d032f"
+        }
+      ],
+      "changes": "Relative imports, formatting and documentation only; executable definition ASTs unchanged."
+    }
+  ]
+}
